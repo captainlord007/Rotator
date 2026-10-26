@@ -1,0 +1,7 @@
+<resources>
+    <color name="screen_background">#11151C</color>
+    <color name="panel">#1D2430</color>
+    <color name="ink">#F1F4FA</color>
+    <color name="muted_ink">#AAB5C6</color>
+    <color name="blue">#8EAEFF</color>
+</resources>
