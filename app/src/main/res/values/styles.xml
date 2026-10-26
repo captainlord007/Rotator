@@ -1,0 +1,39 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="screenBackground">@color/screen_background</item>
+        <item name="panelColor">@color/panel</item>
+        <item name="inkColor">@color/ink</item>
+        <item name="mutedInk">@color/muted_ink</item>
+        <item name="accentColor">@color/blue</item>
+        <item name="android:windowBackground">?attr/screenBackground</item>
+        <item name="android:colorAccent">?attr/accentColor</item>
+        <item name="android:statusBarColor">?attr/screenBackground</item>
+        <item name="android:navigationBarColor">?attr/screenBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppTheme.Light" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="screenBackground">@color/light_screen_background</item>
+        <item name="panelColor">@color/light_panel</item>
+        <item name="inkColor">@color/light_ink</item>
+        <item name="mutedInk">@color/light_muted_ink</item>
+        <item name="accentColor">@color/light_blue</item>
+        <item name="android:windowBackground">?attr/screenBackground</item>
+        <item name="android:colorAccent">?attr/accentColor</item>
+        <item name="android:statusBarColor">?attr/screenBackground</item>
+        <item name="android:navigationBarColor">?attr/screenBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="AppTheme.Dark" parent="android:style/Theme.Material.NoActionBar">
+        <item name="screenBackground">@color/dark_screen_background</item>
+        <item name="panelColor">@color/dark_panel</item>
+        <item name="inkColor">@color/dark_ink</item>
+        <item name="mutedInk">@color/dark_muted_ink</item>
+        <item name="accentColor">@color/dark_blue</item>
+        <item name="android:windowBackground">?attr/screenBackground</item>
+        <item name="android:colorAccent">?attr/accentColor</item>
+        <item name="android:statusBarColor">?attr/screenBackground</item>
+        <item name="android:navigationBarColor">?attr/screenBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

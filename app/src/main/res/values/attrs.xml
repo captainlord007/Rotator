@@ -1,0 +1,7 @@
+<resources>
+    <attr name="screenBackground" format="color" />
+    <attr name="panelColor" format="color" />
+    <attr name="inkColor" format="color" />
+    <attr name="mutedInk" format="color" />
+    <attr name="accentColor" format="color" />
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_background">#F4F6FB</color>
+    <color name="panel">#FFFFFF</color>
+    <color name="ink">#152238</color>
+    <color name="muted_ink">#58677D</color>
+    <color name="blue">#275DCE</color>
+    <color name="light_screen_background">#F4F6FB</color>
+    <color name="light_panel">#FFFFFF</color>
+    <color name="light_ink">#152238</color>
+    <color name="light_muted_ink">#58677D</color>
+    <color name="light_blue">#275DCE</color>
+    <color name="dark_screen_background">#11151C</color>
+    <color name="dark_panel">#1D2430</color>
+    <color name="dark_ink">#F1F4FA</color>
+    <color name="dark_muted_ink">#AAB5C6</color>
+    <color name="dark_blue">#8EAEFF</color>
+    <color name="logo_background">#275DCE</color>
+</resources>
