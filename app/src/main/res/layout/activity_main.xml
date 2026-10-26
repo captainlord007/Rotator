@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="40dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/ink"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/intro"
+            android:textColor="@color/muted_ink"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/status_panel"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/statusTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ink"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statusMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/muted_ink"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/rotationValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/blue"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/orientations_heading"
+            android:textColor="@color/ink"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/modeOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/status_panel"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/optionAuto"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:buttonTint="@color/blue"
+                android:text="@string/mode_auto"
+                android:textColor="@color/ink"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/optionPortraitUp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:buttonTint="@color/blue"
+                android:text="@string/mode_portrait_up"
+                android:textColor="@color/ink"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/optionPortraitDown"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:buttonTint="@color/blue"
+                android:text="@string/mode_portrait_down"
+                android:textColor="@color/ink"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/optionLandscapeLeft"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:buttonTint="@color/blue"
+                android:text="@string/mode_landscape_left"
+                android:textColor="@color/ink"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/optionLandscapeRight"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:buttonTint="@color/blue"
+                android:text="@string/mode_landscape_right"
+                android:textColor="@color/ink"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/applyButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/blue"
+            android:text="@string/apply_button"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/stop_button"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="@string/limitation_note"
+            android:textColor="@color/muted_ink"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>
